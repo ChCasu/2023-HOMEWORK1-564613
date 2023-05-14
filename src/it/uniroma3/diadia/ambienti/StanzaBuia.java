@@ -13,7 +13,7 @@ public class StanzaBuia extends Stanza {
 	
 	@Override
 	public String getDescrizione() {
-		String stanzabuia="questa è una stanza molto buia...";
+		String stanzabuia="qui c'è un buio pesto";
 		if(!hasAttrezzo(torcia))
 			return stanzabuia;
 		return super.getDescrizione();
